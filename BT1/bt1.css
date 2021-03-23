@@ -1,0 +1,45 @@
+  /* Reset */
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Layout */
+  /* Author: Bui THanh Nhan email: nhanbui37@gmail.com */
+  table {
+    margin: 30px auto;
+    text-align: center;
+  }
+  tr{
+    line-height: 50px;
+  }
+  .focus_text{
+    color: rgb(87, 183, 247);
+  }
+  ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  a{
+    border: 1px black solid;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: tomato;
+  }
+  a:link{
+    color: white;}
+  a:active{
+    color: yellowgreen;}
